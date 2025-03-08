@@ -1,3 +1,7 @@
 export default function About() {
-  return <p className="">Hello from About</p>;
+  return (
+    <div>
+      <p className="">Hello from about!</p>
+    </div>
+  );
 }

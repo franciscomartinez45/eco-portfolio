@@ -21,4 +21,5 @@ const links: Links[] = [
   { link: "/", linkName: "Home" },
   /** FOLLOW THIS TEMPLATE BELOW TO ADD PAGES TO THE MENU BAR ON TOP OF PAGE**/
   { link: "about.tsx", linkName: "About" },
+  { link: "contact.tsx", linkName: "Contact" },
 ];

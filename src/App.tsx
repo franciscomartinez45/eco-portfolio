@@ -5,6 +5,7 @@ import About from "./pages/about";
 /* import ___ from location("./pages/___") */
 
 import "./style/index.css";
+import Contact from "./pages/contact";
 
 export default function App() {
   return (
@@ -13,9 +14,9 @@ export default function App() {
         <Header />
         <Routes>
           <Route index element={<Index />} />
-
           {/** FOLLOW THIS TEMPLATE BELOW TO ADD PAGES TO THE MENU BAR ON TOP OF PAGE**/}
           <Route path="/about.tsx" element={<About />} />
+          <Route path="/contact.tsx" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>
