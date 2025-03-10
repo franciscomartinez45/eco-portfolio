@@ -1,7 +1,7 @@
 export default function Index() {
   return (
     <div>
-      <p>Hello from index!</p>
+      <p>Hello from the home page!</p>
     </div>
   );
 }
